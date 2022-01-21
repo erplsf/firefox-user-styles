@@ -1,0 +1,14 @@
+/** ==UserStyle==
+ * @name Hide Top Tab Bar
+ * @author Andriy Mykhaylyk
+ * @license MIT
+ * @description Hide top tab bar
+ */
+
+@-moz-document url(chrome://browser/content/browser.xul),
+               url(chrome://browser/content/browser.xhtml) {
+    /* hides the native tabs */
+    #TabsToolbar {
+        visibility: collapse;
+    }
+}
